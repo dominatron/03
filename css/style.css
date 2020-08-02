@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	background-color: #252529;
+	margin: 0;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-nav{
+    width: 100%;
+    z-index: 1;
+    background-color: #333333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px 30px;
+    
+
+}
+
+.menu li:hover{
+    background-color: #444444;
+    
+}
+
+#overview{
+    background-image: url(../img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.text{
+    width: 90vw;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50vw;
+    top: 35vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    color: silver;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+#music{
+   text-align: center;
+   max-width: 1170px;
+   min-width: 60vw;
+   margin: auto;
+   padding: 0 5vw;
+}
+
+.music-link{
+    background-color: #B90415;
+    padding: 15px;
+}
+
+.music-link:hover{
+    background-color: #CA1526;
+}
+
+.tablet{
+    max-width: 90vw;
+}
+
+#avideo{
+    background-color: #fff;
+    color: #333333;
+    text-align: center;
+    padding: 30px 5vw 30px 5vw;
+}
+
+#avideo p{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.readmore{
+    background-color: #103063;
+    padding: 15px;
+}
+
+.readmore:hover{
+    background-color: #214174;
+}
+
+#entertainment{
+    background: url(../img/section-bg.jpg) bottom no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 30px 18vw;
+}
+
+@media (max-width:1198px) {
+    #entertainment{
+        padding: 30px 5vw;
+    }
+}
+
+#giftcard-container{
+    background-color: #fff;
+    color: #333333;
+    display: flex;
+    padding: 8px 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.cards, .giftcard-text {
+    padding: 20px;
+}
+
+.cards{
+    max-width: 40vw;
+    max-height: 400px;
+}
+.giftcard-text{
+    max-width: 30vw;
+}
+
+.giftcard-link{
+    color: #333333;
+}
+
+
+
+.upper-nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    min-height: 230px;
+    flex-wrap: wrap;
+}
+
+.bottom-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    color: silver;
+}
+
+.botom-nav-1, .botom-nav-2, .botom-nav-3, .botom-nav-4{
+   padding: 20px 40px;
+}
+
+.bottomhr{
+    background-color: silver;
+}
+
+.bottomfooter{
+    background-color: #333333;
+    text-align: center;
+    line-height: 60px;
+}
+
+.bottomfooter p{
+    margin: inherit;
+}
+
+
